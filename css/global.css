@@ -1,11 +1,14 @@
 :root {
 --primary-color:#2D527D;
 --secondary-color:#FCDB28;
+--third-color:#ffffff;
+--black-color:#000000;
 
 }
 
 body{
     margin: 0;
+    grid-template-rows: auto 1fr auto;
 }
 
 h1,
@@ -18,9 +21,13 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
 
 header{
 background-color: var(--primary-color);
 position: sticky;
     top: 0px;
 }
+

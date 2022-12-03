@@ -8,7 +8,7 @@ nav{
     display: none;
 }
 
-ul{
+nav ul{
     list-style: none;
 }
 
@@ -28,7 +28,7 @@ ul a{
 
 @media screen and (min-width: 650px)  {
     nav,
-    ul{
+    nav ul{
         display: flex;
         gap: 15px;
     }
