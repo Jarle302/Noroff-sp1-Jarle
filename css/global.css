@@ -1,5 +1,10 @@
 :root {
---primary-color:#012632;  
+--primary-color:#012632;
+
+}
+
+body{
+    margin: 0;
 }
 
 h1,

@@ -27,4 +27,8 @@ ul a{
         display: flex;
         gap: 15px;
     }
+
+    .hamburger-menu__label{
+        display: none;
+    }
 }
