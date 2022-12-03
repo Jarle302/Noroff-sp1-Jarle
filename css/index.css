@@ -1,18 +1,30 @@
-
-.index__main{
-    display: flex;
-    flex-direction: column;
+.index__main {
+  display: flex;
+  flex-direction: column;
 }
 
+.h1--welcome,
+.h2--welcome,
+.h3--welcome,
+.p--welcome,
+.h3--exhibitions,
+.p--exhibitions,
+.h2--get-involved,
+.h3--get-involved,
+.p--get-involved,
+.a--get-involved,
+.h2--visit,
+.h3--visit,
+.p--visit,
+.ul--visit {
+  color: var(--third-color);
+}
 
 /* FIRST SECTION */
 
 .index__section--welcome {
   background: url(/images/andrew-ruiz-348421.small.jpg) no-repeat;
   background-size: cover;
-}
-
-.h1--index {
   min-height: 400px;
 }
 
@@ -20,7 +32,6 @@ h1,
 h2,
 h3,
 p {
-  color: var(--third-color);
   padding: 0 20px;
 }
 
@@ -29,9 +40,9 @@ p {
   background-color: var(--primary-color);
 }
 
-.index__h2--our-exhibitions {
+.h2--exhibitions {
   background-color: var(--third-color);
-  color: var(--black-color);
+  padding: 25px;
 }
 
 .index__section--our-exhibitions__div--container--textboxes {
@@ -45,50 +56,51 @@ p {
   flex: 1 1 33%;
 }
 
-.index__section--our-exhibitions__div--container--images{
-display: flex;
-justify-content: center;
-gap: 25px;
+.index__section--our-exhibitions__div--container--images {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
-.index__section--our-exhibitions__div--container--images > *{
-flex: 1 1 50%;
-max-width: 40%;
+.index__section--our-exhibitions__div--container--images > * {
+  flex: 1 1 50%;
+  max-width: 40%;
 }
 .index__section--our-exhibitions__div--textbox {
   color: white;
 }
 
 /* THIRD SECTION */
-.index__section--explore{
-    background-color: var(--third-color);
+.index__section--explore {
+  background-color: var(--third-color);
 }
 
-.index__h2--explore, 
-h3,p{
-    color: var(--black-color);
+.index__h2--explore,
+h3,
+p {
+  color: var(--black-color);
 }
 
-.index__section--explore__div--card{
-padding: 0 20px;
+.index__section--explore__div--card {
+  padding: 0 20px;
 }
 
 /* FOURTH SECTION */
-.index__section--get-involved{
-    background-color: var(--primary-color);
-    padding: 25px;
+.index__section--get-involved {
+  background-color: var(--primary-color);
+  padding: 25px;
 }
 
-.index__section--get-involved__div--container--links{
-    display: flex;
+.index__section--get-involved__div--container--links {
+  display: flex;
+  gap: 30px;
 }
 
-
-.index__section--get-involved__div--container--links a{
-    text-decoration: none;
+.index__section--get-involved__div--container--links a {
+  text-decoration: none;
 }
 
 /* FIFTH SECTION */
 
-.index__section--visit{
-    background-color: var(--primary-color);
+.index__section--visit {
+  background-color: var(--primary-color);
 }
