@@ -21,6 +21,11 @@ ul a{
     display: block;
 }
 
+.active{
+    background-color: var(--secondary-color);
+    max-width: fit-content;
+}
+
 @media screen and (min-width: 650px)  {
     nav,
     ul{
