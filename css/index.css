@@ -18,6 +18,7 @@
 
 h1,
 h2,
+h3,
 p {
   color: var(--third-color);
   padding: 0 20px;
@@ -58,6 +59,18 @@ max-width: 40%;
 }
 
 /* THIRD SECTION */
+.index__section--explore{
+    background-color: var(--third-color);
+}
+
+.index__h2--explore, 
+h3,p{
+    color: var(--black-color);
+}
+
+.index__section--explore__div--card{
+padding: 0 20px;
+}
 
 /* FOURTH SECTION */
 
