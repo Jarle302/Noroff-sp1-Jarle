@@ -73,5 +73,22 @@ padding: 0 20px;
 }
 
 /* FOURTH SECTION */
+.index__section--get-involved{
+    background-color: var(--primary-color);
+    padding: 25px;
+}
 
-/* SECOND SECTION */
+.index__section--get-involved__div--container--links{
+    display: flex;
+}
+
+
+.index__section--get-involved__div--container--links a{
+    text-decoration: none;
+}
+
+/* FIFTH SECTION */
+
+.index__section--visit{
+    background-color: var(--primary-color);
+}

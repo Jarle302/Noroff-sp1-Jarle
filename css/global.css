@@ -11,6 +11,7 @@ body{
     grid-template-rows: auto 1fr auto;
 }
 
+/* Text */
 h1,
 h2,
 h3 {
@@ -20,6 +21,8 @@ h3 {
 p {
   font-family: "Roboto", sans-serif;
 }
+
+
 
 img{
     max-width: 100%;
