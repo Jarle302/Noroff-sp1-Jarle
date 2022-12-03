@@ -75,7 +75,7 @@ p {
 .index__section--explore {
   background-color: var(--third-color);
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 
 .index__section--explore > * {
