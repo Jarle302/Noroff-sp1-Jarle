@@ -35,6 +35,10 @@ p {
   padding: 0 20px;
 }
 
+.p--welcome{
+  max-width: 250px;
+}
+
 /* SECOND SECTION */
 .index__section--our-exhibitions {
   background-color: var(--primary-color);
