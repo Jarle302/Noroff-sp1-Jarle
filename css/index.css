@@ -38,11 +38,13 @@ p {
 /* SECOND SECTION */
 .index__section--our-exhibitions {
   background-color: var(--primary-color);
+  padding-bottom: 28px;
 }
 
 .h2--exhibitions {
   background-color: var(--third-color);
   padding: 25px;
+  margin: 0;
 }
 
 .index__section--our-exhibitions__div--container--textboxes {
@@ -72,6 +74,16 @@ p {
 /* THIRD SECTION */
 .index__section--explore {
   background-color: var(--third-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.index__section--explore > * {
+  flex:1 1 26%;
+}
+
+.index__h2--explore{
+  flex: 1 1 100%;
 }
 
 .index__h2--explore,
@@ -82,6 +94,14 @@ p {
 
 .index__section--explore__div--card {
   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.a--explore--learn-more {
+  align-self: flex-end;
 }
 
 /* FOURTH SECTION */
@@ -103,4 +123,26 @@ p {
 
 .index__section--visit {
   background-color: var(--primary-color);
+  margin-top: 15vh;
+}
+
+@media screen and (min-width: 650px) {
+  .index__section--our-exhibitions__div--container--textboxes {
+    flex-direction: row;
+  }
+
+  .index__section--our-exhibitions__div--container--images {
+    transform: translate(18px, 100px);
+  }
+  .index__section--explore {
+    margin-top: 15vh;
+  }
+
+  .index__section--explore {
+    flex-direction: row;
+  }
+
+  .image--visit{
+    max-width: 44%;
+  }
 }
