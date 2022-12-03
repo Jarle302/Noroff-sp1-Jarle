@@ -13,6 +13,19 @@ body{
     margin: auto;
 }
 
+img{
+  max-width: 100%;
+}
+
+header{
+background-color: var(--primary-color);
+position: sticky;
+  top: 0px;
+  padding: 20px;
+}
+
+
+
 /* Text */
 h1,
 h2,
@@ -26,14 +39,12 @@ p {
 
 
 
-img{
-    max-width: 100%;
-}
+/* buttons */
 
-header{
-background-color: var(--primary-color);
-position: sticky;
-    top: 0px;
+.cta{
+  text-decoration: none;
     padding: 20px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    color: black;
 }
-
