@@ -3,6 +3,7 @@
 --secondary-color:#FCDB28;
 --third-color:#ffffff;
 --black-color:#000000;
+--card--background-opacity:rgb(45 82 125 / 62%);
 
 }
 
@@ -47,4 +48,5 @@ p {
     border-radius: 20px;
     background-color: var(--secondary-color);
     color: black;
+    display: inline-block;
 }
