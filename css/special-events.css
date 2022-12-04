@@ -1,0 +1,8 @@
+.section--night-at-the-museum__div{
+    background: url(/images/roberto-nickson-396152.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--third-color);
+    height: 40vh;
+   
+    margin: auto;
+}
