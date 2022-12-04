@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+p {
+  margin: 20px;
+}
+
+.image--hero--get-involved {
+  max-width: 350px;
+}
+
+.section--support,
+.section--volunteer {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container > * {
+  flex: 1 1 10%;
+  max-width: 20%;
+}
