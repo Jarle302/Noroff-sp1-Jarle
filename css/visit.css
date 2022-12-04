@@ -1,0 +1,16 @@
+.map--visit {
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+}
+
+.section--visit,
+.section--admission,
+.section--food-and-drink {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+}
+
+img{
+    max-width: 30%;
+}
