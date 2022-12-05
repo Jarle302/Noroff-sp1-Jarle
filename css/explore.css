@@ -13,3 +13,7 @@
 .flex-container--images > *{
     flex: 1 1 0;
 }
+
+.image--resize{
+    max-width: 30%;
+}
