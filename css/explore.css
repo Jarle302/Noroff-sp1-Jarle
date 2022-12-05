@@ -1,0 +1,15 @@
+.section--kids{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.flex-container--images{
+    display: flex;
+    width: 32%;
+    height: auto;
+    max-width: 200px;
+}
+
+.flex-container--images > *{
+    flex: 1 1 0;
+}

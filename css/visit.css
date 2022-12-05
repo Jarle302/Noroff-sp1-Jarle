@@ -4,6 +4,12 @@
   height: 300px;
 }
 
+.section--visit{
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
 .section--visit,
 .section--admission,
 .section--food-and-drink {
