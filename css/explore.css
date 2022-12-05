@@ -15,7 +15,7 @@
 }
 
 .image--resize{
-    max-width: 42vh;
+    
     margin: auto;
 }
 
@@ -27,6 +27,11 @@
 
 
 @media screen and (min-width:650px) {
+
+    .image--resize{
+        max-width: 42vh;
+    }
+
     .section--kids{
         grid-template-columns: 1fr 1fr;
     }
