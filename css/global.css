@@ -63,6 +63,8 @@ p {
     border: 3px solid black;
     max-width: 237px;
     margin: 20px;
+    color: var(--black-color);
+    background-color: var(--third-color);
 }
 
 
