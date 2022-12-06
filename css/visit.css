@@ -4,6 +4,13 @@
   height: 300px;
 }
 
+.section--location{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
 .section--visit{
     height: 40vh;
     display: flex;
@@ -23,7 +30,9 @@ img{
 
 @media screen and (min-width:650px) {
   
-
+  .section--location{
+    flex-direction: row;
+  }
 
 .section--location{
   display: flex;
