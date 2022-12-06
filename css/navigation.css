@@ -22,10 +22,9 @@ ul a{
 }
 
 .active{
-    background-color: var(--secondary-color);
+    background-color: var(--fourth-color);
     max-width: fit-content;
-    border-radius: 12px;
-    padding: 4px;
+    
 }
 
 @media screen and (min-width: 650px)  {
