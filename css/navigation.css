@@ -24,6 +24,7 @@ ul a{
 .active{
     background-color: var(--secondary-color);
     max-width: fit-content;
+    color: var(--black-color);
 }
 
 @media screen and (min-width: 650px)  {
