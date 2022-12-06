@@ -25,6 +25,7 @@ ul a{
     background-color: var(--secondary-color);
     max-width: fit-content;
     border-radius: 12px;
+    padding: 4px;
 }
 
 @media screen and (min-width: 650px)  {
