@@ -48,21 +48,32 @@
   background: url(/images/ivan-bandura-lzG4UQprzBY-unsplash.jpg) top no-repeat;
   background-size: cover;
 }
+.exhibitions__div--secondary-nav{
+  display: none;
+}
+
+
+@media screen and (min-width: 730px) {
+  
 
 
 .exhibitions__div--secondary-nav{
   margin-bottom: 40px;
+  display: block;
 }
+
 
 .secondary-nav__link--exhibitions{
   padding: 20px;
   background: black;
   border-radius: 20px;
   transition: all 1s ease-in-out;
+  text-decoration: none;
+  color: white;
 }
 
 .secondary-nav__link--exhibitions:hover{
-  
+
   padding: 60px;
 }
 
@@ -90,3 +101,5 @@ background-size: contain;
         background: url(/images/ivan-bandura-lzG4UQprzBY-unsplash.jpg) no-repeat;
         background-size: contain;
         }
+
+      }

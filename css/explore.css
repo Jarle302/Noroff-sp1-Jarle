@@ -28,9 +28,9 @@
 
 @media screen and (min-width:650px) {
 
-    .image--resize{
-        max-width: 42vh;
-    }
+   main{
+    font-size: 1.5rem;
+   }
 
     .section--kids{
         grid-template-columns: 1fr 1fr;
