@@ -48,3 +48,45 @@
   background: url(/images/ivan-bandura-lzG4UQprzBY-unsplash.jpg) top no-repeat;
   background-size: cover;
 }
+
+
+.exhibitions__div--secondary-nav{
+  margin-bottom: 40px;
+}
+
+.secondary-nav__link--exhibitions{
+  padding: 20px;
+  background: black;
+  border-radius: 20px;
+  transition: all 1s ease-in-out;
+}
+
+.secondary-nav__link--exhibitions:hover{
+  
+  padding: 60px;
+}
+
+.secondary-nav__link--exhibitions--cosmology:hover{
+background: url(/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg);
+background-size: contain;
+}
+
+.secondary-nav__link--exhibitions--evolution:hover{
+  background: url(/images/mammoth-1257288_1920.jpg) no-repeat;
+  background-size: contain;
+  }
+
+  .secondary-nav__link--exhibitions--biologi-and-medicine:hover{
+    background: url(/images/heart-2607178_1920.jpg) no-repeat;
+    background-size: cover;
+    }
+
+    .secondary-nav__link--exhibitions--robotics-and-ai:hover{
+      background: url(/images/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg) no-repeat;
+      background-size: cover;
+      }
+
+      .secondary-nav__link--exhibitions--ecology:hover{
+        background: url(/images/ivan-bandura-lzG4UQprzBY-unsplash.jpg) no-repeat;
+        background-size: contain;
+        }

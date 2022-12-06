@@ -12,11 +12,7 @@
 .h2--get-involved,
 .h3--get-involved,
 .p--get-involved,
-.a--get-involved,
-.h2--visit,
-.h3--visit,
-.p--visit,
-.ul--visit {
+.a--get-involved{
   color: var(--third-color);
 }
 
@@ -126,8 +122,7 @@ p {
 /* FIFTH SECTION */
 
 .index__section--visit {
-  background-color: var(--primary-color);
-  margin-top: 15vh;
+  background-color: var(--third-color);
 }
 
 @media screen and (min-width: 650px) {
@@ -149,4 +144,21 @@ p {
   .image--visit{
     max-width: 44%;
   }
+
+  .flex--container__index__section--visit{
+    display: flex;
+
+  }
+.flex--container__index__section--visit > *{
+  flex: 1;
+
+
+}
+.flex-container__div--img-and-container{
+  display: flex;
+}
+
+.index__div--admission{
+max-width: 441px;
+}
 }
