@@ -4,6 +4,7 @@
 --third-color:#ffffff;
 --fourth-color:#D9D9D9;
 --black-color:#000000;
+--footer-background:#121212;
 --card--background-opacity:rgb(45 82 125 / 62%);
 
 }
@@ -17,6 +18,10 @@ body{
 
 img{
   max-width: 100%;
+}
+
+.logo{
+  max-width: 150%;
 }
 
 header{
@@ -54,6 +59,12 @@ p {
     display: inline-block;
 }
 
+.cta--footer{
+  width:45px;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
 
 /* cards */
 
@@ -79,3 +90,69 @@ margin: 0;
 .card--neu-brutalism--small h3{
   margin: 0;
 }
+
+
+/* Footer  */
+
+.footer__container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+background-color: var(--footer-background);
+color: var(--third-color);
+}
+
+.social-media-icon{
+  font-size: 2rem;
+  margin: 0 10px;
+  color: var(--third-color);
+}
+.footer__container--follow-us__p{
+  margin-top: 0;
+}
+
+.footer__container--cta{
+  grid-column: 3/5;
+  margin: auto 0;
+  
+}
+
+.footer__p--location{
+  margin-top: 0;
+}
+
+.footer__p--location u{
+  list-style: none;
+}
+
+
+.footer__form{
+  grid-column: 3/5;
+}
+.footer__form--label{
+  display: block;
+}
+
+.footer__container--links{
+  text-decoration: none;
+  list-style: none;
+  grid-column: 2/3;
+}
+
+
+.footer__container--links ul{
+  list-style: none;
+line-height: 1.8;
+}
+
+.footer__p--copyright{
+  grid-column: 1/5;
+  margin: auto;
+}
+
+@media screen and (min-width:613px){
+
+
+
+} 
+  
