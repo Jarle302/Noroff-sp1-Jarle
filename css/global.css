@@ -144,16 +144,19 @@ padding: none;
  color: var(--third-color);
 }
 
-footer ul, footer p, footer a, footer label{
+footer ul, footer p, footer a, footer label, footer input{
 margin: 0 20px;
 padding: 0;
+}
+
+#email--footer{
+  margin-right:0;
 }
 
 
 
 
-
-@media screen and (min-width:613px){
+@media screen and (min-width:728px){
 
   .cta--footer{
     width: 76px;
@@ -163,7 +166,7 @@ padding: 0;
     background: var(--footer-background);
     color: var(--third-color);
     display: inline-block;
-    padding: 20px;
+    padding: 12px;
     
   
   }
