@@ -59,15 +59,7 @@ p {
     display: inline-block;
 }
 
-.cta--footer{
-  width: 76px;
-  border: solid 1px var(--secondary-color);
-  border-radius: 3px;
-  margin: 0 5px;
-  background: var(--footer-background);
-  color: var(--third-color);
 
-}
 
 
 /* cards */
@@ -100,10 +92,11 @@ margin: 0;
 
 .footer__container{
   display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     background-color: var(--footer-background);
     color: var(--third-color);
+    gap: 30px;
 }
 
 
@@ -113,21 +106,16 @@ margin: 0;
   color: var(--third-color);
   
 }
-.footer__container--follow-us{
-  grid-row: 2/3;
-    grid-column: 3/4;
-    margin-top: auto;
+
+.logo{
+  max-width: 40%;
 }
 
-.footer__container--cta{
-  grid-column: 3/5;
-  margin: auto 0;
-  grid-row: 1/2;
-  
-}
+
+
 
 .footer__p--location{
-  margin: 0;
+  font-size: 2rem;
 }
 
 .footer__p--location u{
@@ -135,10 +123,7 @@ margin: 0;
 }
 
 
-.footer__form{
-  grid-column: 3/5;
-    grid-row: 2/3;
-}
+
 .footer__form--label{
   display: block;
 }
@@ -146,26 +131,86 @@ margin: 0;
 .footer__container--links{
   text-decoration: none;
   list-style: none;
-  grid-column: 2/3;
+
 }
 
-.footer__container--textbox{
-  grid-column: 1/2;
-}
 
-.footer__container--links ul{
+footer ul{
   list-style: none;
-line-height: 1.8;
+padding: none;
 }
 
-.footer__p--copyright{
-  grid-column: 1/5;
-  margin: auto;
+.cta--footer{
+ color: var(--third-color);
 }
+
+footer ul, footer p, footer a, footer label{
+margin: 0 20px;
+padding: 0;
+}
+
+
+
+
 
 @media screen and (min-width:613px){
 
+  .cta--footer{
+    width: 76px;
+    border: solid 1px var(--secondary-color);
+    border-radius: 3px;
+    margin: 0 5px;
+    background: var(--footer-background);
+    color: var(--third-color);
+    display: inline-block;
+    padding: 20px;
+    
+  
+  }
 
+
+  .footer__container{
+    display: block;
+    display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    gap: 0;
+    }
+
+  .footer__p--copyright{
+    grid-column: 1/5;
+    margin: auto;
+  }
+  
+  .logo{
+    max-width: 150%;
+  }
+
+  .footer__container--links{
+        grid-column: 2/3;
+  }
+  
+  .footer__container--textbox{
+    grid-column: 1/2;
+  }
+  
+  .footer__form{
+    grid-column: 3/5;
+      grid-row: 2/3;
+  }
+
+  .footer__container--cta{
+    grid-column: 3/5;
+    margin: auto 0;
+    grid-row: 1/2;
+    
+  }
+
+  .footer__container--follow-us{
+    grid-row: 2/3;
+      grid-column: 3/4;
+      margin-top: auto;
+  }
 
 } 
   
