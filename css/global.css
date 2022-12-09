@@ -102,7 +102,7 @@ margin: 0;
 
 .social-media-icon{
   font-size: 2rem;
-  margin: 0 10px;
+  
   color: var(--third-color);
   
 }
@@ -138,13 +138,16 @@ margin: 0;
 footer ul{
   list-style: none;
 padding: none;
+padding: 0;
 }
 
 .cta--footer{
  color: var(--third-color);
 }
 
-footer ul, footer p, footer a, footer label, footer input{
+
+
+footer p, footer a, footer label, footer input, .footer__ul--hours{
 margin: 0 20px;
 padding: 0;
 }
