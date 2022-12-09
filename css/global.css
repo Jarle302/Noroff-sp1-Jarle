@@ -116,6 +116,7 @@ margin: 0;
 
 .footer__p--location{
   font-size: 2rem;
+  color: var(--third-color);
 }
 
 .footer__p--location u{

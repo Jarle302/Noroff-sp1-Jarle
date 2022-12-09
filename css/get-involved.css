@@ -4,9 +4,7 @@ p {
   margin: 20px;
 }
 
-.image--hero--get-involved {
-  max-width: 350px;
-}
+
 
 
 
@@ -15,6 +13,20 @@ p {
   background-color: var(--primary-color);
   color: var(--third-color);
 }
+
+.section--support,
+.section--volunteer{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cta--get-involved{
+  align-self: center;
+  margin: 20px;
+}
+
+
 
 .flex-container {
   display: flex;
@@ -26,10 +38,15 @@ p {
   max-width: 20%;
 }
 
-
+.h2--support{
+  margin-top: 0;
+}
 
 @media screen and (min-width:650px) {
   
+  .image--hero--get-involved {
+    max-width: 350px;
+  }
 
 .section--hero{
   display: flex;
@@ -39,7 +56,5 @@ p {
   margin: auto;
 }
 
-.h2--support{
-  margin-top: 0;
-}
+
 }

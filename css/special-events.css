@@ -34,11 +34,15 @@ color: var(--third-color);
 .flex-container--visiting-proffessor-of-aeronautics--four-images{
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .flex-container--visiting-proffessor-of-aeronautics--four-images > *{
     max-width: 19%;
     flex: 1;
-    gap: 10px;
+   
 }
 
+.special-events__p--energetica-exhibition-on-loan{
+    margin-bottom: 0;
+}
