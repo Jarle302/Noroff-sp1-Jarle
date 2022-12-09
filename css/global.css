@@ -111,11 +111,12 @@ margin: 0;
   font-size: 2rem;
   margin: 0 10px;
   color: var(--third-color);
-  margin-top: auto;
+  
 }
 .footer__container--follow-us{
   grid-row: 2/3;
     grid-column: 3/4;
+    margin-top: auto;
 }
 
 .footer__container--cta{
