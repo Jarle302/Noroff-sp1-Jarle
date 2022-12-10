@@ -1,3 +1,7 @@
+p{
+    font-size: 1.6rem;
+}
+
 .section--kids{
     display: grid;
     grid-template-columns: 1fr;
@@ -5,9 +9,9 @@
 
 .flex-container--images{
     display: flex;
-    width: 32%;
+    width: 20%;
     height: auto;
-    max-width: 200px;
+
 }
 
 .flex-container--images > *{

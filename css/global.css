@@ -74,6 +74,7 @@ p {
     margin: 20px;
     color: var(--black-color);
     background-color: var(--third-color);
+    font-size: 0.9rem;
 }
 
 
