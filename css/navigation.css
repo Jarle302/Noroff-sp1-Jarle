@@ -1,13 +1,39 @@
 
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
 
+    background-color: var(--primary-color);
+    position: sticky;
+      top: 0px;
+      padding: 20px;
+    
+}
+
+.navigation__image--logo{
+    width:100px;
+}
 
 nav{
     display: none;
-    position: sticky;
+    position: absolute;
+    top: 0%;
+    right: 1px;
+    padding: 116px 21px;
+    background-color: var(--footer-background);
+    line-height: 32px;
 }
 
 #hamburger-menu__checkbox{
     display: none;
+}
+
+.hamburger-menu__label{
+position: fixed;
+right: 12px;
+color: white;
+z-index: 100;
 }
 
 nav ul{
@@ -32,6 +58,13 @@ ul a{
 
 
 @media screen and (min-width: 650px)  {
+
+nav{
+    position: static;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+
     nav,
     nav ul{
         display: flex;

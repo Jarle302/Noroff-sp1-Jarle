@@ -31,7 +31,7 @@
   color: var(--third-color);
 }
 
-img{
+.image--visit--30percent{
     max-width: 30%;
 }
 .section--visit__image{

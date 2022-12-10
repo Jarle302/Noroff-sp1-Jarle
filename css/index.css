@@ -89,6 +89,12 @@
   padding: 0px 20px;
 }
 
+.index__section--our-exhibitions__div--container--textboxes p, 
+.index__section--our-exhibitions__div--container--textboxes h3{
+  margin: 0;
+  padding: 0;
+}
+
 .index__section--our-exhibitions__div--container--textboxes > * {
   flex: 1 1 33%;
 }
