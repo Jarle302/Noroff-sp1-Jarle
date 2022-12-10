@@ -50,8 +50,7 @@ ul a{
 }
 
 .active{
-    background-color: var(--fourth-color);
-    max-width: fit-content;
+    color: var(--secondary-color);
     
 }
 
