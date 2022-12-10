@@ -35,7 +35,7 @@
   color: var(--black-color);
   padding: 80px 60px;
   align-items: flex-start;
-  background: url(/images/exhibition-1863344_1920.jpg) no-repeat;
+  background: url(/images/exhibition-dark.jpg) no-repeat;
   background-size: cover;
   
  
@@ -64,7 +64,7 @@
 .p--welcome,
 .h2--welcome{
   background-color:var(--color-background-text-readable);
-  color: var(--black-color);
+  color: var(--third-color);
 }
 
 
@@ -161,6 +161,14 @@ p {
 }
 
 @media screen and (min-width: 650px) {
+
+  .h1--welcome,
+.p--welcome,
+.h2--welcome{
+  color: var(--black-color);
+  background: none;
+}
+
   .index_section--welcome__div--col-1{
     background: none;
   }
