@@ -35,6 +35,8 @@
   color: var(--black-color);
   padding: 80px 60px;
   align-items: flex-start;
+  background: url(/images/exhibition-1863344_1920.jpg) no-repeat;
+  background-size: cover;
   
  
 }
@@ -47,6 +49,7 @@
 }
 
 .index_section--welcome__div--col-2{
+  display: none;
   flex: 1;
 }
 
@@ -55,6 +58,13 @@
   width: auto;
   height: 100%;
   
+}
+
+.h1--welcome,
+.p--welcome,
+.h2--welcome{
+  background-color:var(--color-background-text-readable);
+  color: var(--black-color);
 }
 
 
@@ -151,6 +161,14 @@ p {
 }
 
 @media screen and (min-width: 650px) {
+  .index_section--welcome__div--col-1{
+    background: none;
+  }
+
+  .index_section--welcome__div--col-2{
+    display: block;
+  }
+
   .index__section--our-exhibitions__div--container--textboxes {
     flex-direction: row;
   }
