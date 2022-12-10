@@ -12,9 +12,16 @@
 }
 
 .section--visit{
-    height: 40vh;
+    
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.h1--visit{
+  font-size: 2.5rem;
+  margin: auto;
+  flex: 1 1 100%;
 }
 
 .section--visit,
@@ -27,6 +34,10 @@
 img{
     max-width: 30%;
 }
+.section--visit__image{
+  max-width: 100%;
+}
+
 
 @media screen and (min-width:650px) {
   
@@ -38,6 +49,19 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.section--visit{
+  
+  flex-wrap:nowrap;
+  
+}
+.section--visit__image{
+  max-width: 30%;
+}
+
+.h1--visit{
+  flex: 0;
 }
 
 .visit__ul--hours{

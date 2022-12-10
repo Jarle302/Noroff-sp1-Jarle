@@ -70,7 +70,7 @@ p {
 .card--neu-brutalism{
   box-shadow: 12px 11px rgb(0 0 0);
     border: 3px solid black;
-    max-width: 237px;
+    width: 92%;
     margin: 20px;
     color: var(--black-color);
     background-color: var(--third-color);
