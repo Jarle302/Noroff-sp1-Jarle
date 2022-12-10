@@ -3,10 +3,9 @@
   flex-direction: column;
 }
 
-.h1--welcome,
-.h2--welcome,
+
 .h3--welcome,
-.p--welcome,
+
 .h3--exhibitions,
 .p--exhibitions,
 .h2--get-involved,
@@ -18,22 +17,48 @@
 
 /* FIRST SECTION */
 
-.index__section--welcome {
-  background: url(/images/andrew-ruiz-348421.small.jpg) no-repeat;
-  background-size: cover;
-  min-height: 400px;
+.h1--welcome{
+  font-size: 2rem;
+  padding: 0;
+  margin-bottom: 0;
 }
 
-h1,
-h2,
-h3,
-p {
-  padding: 0 20px;
+.index__section--welcome{
+  display: flex;
+
 }
 
-.p--welcome{
-  max-width: 250px;
+.index_section--welcome__div--col-1{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: var(--black-color);
+  padding: 80px 60px;
+  align-items: flex-start;
+  
+ 
 }
+
+.index_section--welcome__div--col-1 img{
+  height: 55%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.index_section--welcome__div--col-2{
+  flex: 1;
+}
+
+.image--col-2{
+  object-fit: cover;
+  width: auto;
+  height: 100%;
+  
+}
+
+
+
 
 /* SECOND SECTION */
 .index__section--our-exhibitions {
