@@ -32,12 +32,12 @@ h1,
 h2,
 h3 {
   font-family: "Orbitron", sans-serif;
-  padding: 20px;
+ 
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  padding: 20px;
+  
 }
 
 
@@ -46,12 +46,13 @@ p {
 
 .cta {
   text-decoration: none;
-  padding: 20px;
+  padding: 10px 15px;
   border-radius: 20px;
   background-color: var(--secondary-color);
   color: black;
   display: inline-block;
 }
+
 
 /* cards */
 
