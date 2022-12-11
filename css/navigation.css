@@ -20,6 +20,7 @@ nav {
   padding: 116px 21px;
   background-color: var(--footer-background);
   line-height: 32px;
+  margin: 0 10px;
 }
 
 #hamburger-menu__checkbox {
