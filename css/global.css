@@ -17,7 +17,7 @@ body {
   
 }
 main{
-  max-width: 1250px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -91,7 +91,7 @@ footer{
 }
 
 .footer__container {
-  max-width: 1250px;
+  max-width: 1300px;
   display: grid;
   display: flex;
   flex-direction: column;
