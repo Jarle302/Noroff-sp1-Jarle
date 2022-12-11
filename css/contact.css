@@ -20,7 +20,3 @@
 
 
 
-input:required:invalid,
-textarea:required:invalid {
-  border: 2px solid red;
-}

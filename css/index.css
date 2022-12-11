@@ -143,11 +143,16 @@ h3{
 
 .index__section--get-involved__div--container--links {
   display: flex;
-  gap: 30px;
+  gap: 10px;
+  margin: 0 20px;
 }
 
 .index__section--get-involved__div--container--links a {
   text-decoration: none;
+}
+
+.cta__index--learn-more{
+  margin: 40px 20px 20px 20px;
 }
 
 /* FIFTH SECTION */
