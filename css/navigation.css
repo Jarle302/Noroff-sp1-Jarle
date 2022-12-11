@@ -1,7 +1,5 @@
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
 
   background-color: var(--primary-color);
   position: sticky;
@@ -16,6 +14,9 @@ header {
 .header-wrapper{
   max-width: 1300px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav {
   display: none;
