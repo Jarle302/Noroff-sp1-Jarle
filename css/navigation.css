@@ -12,6 +12,10 @@ header {
   width: 100px;
 }
 
+
+.header-wrapper{
+  max-width: 1250px;
+}
 nav {
   display: none;
   position: absolute;
