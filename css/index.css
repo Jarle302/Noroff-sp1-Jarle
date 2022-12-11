@@ -33,7 +33,7 @@
   color: var(--black-color);
   padding: 80px 60px;
   align-items: flex-start;
-  background: url(/images/exhibition-dark.jpg) no-repeat;
+  background: url(/images/exhibition-dark.jpg) center no-repeat;
   background-size: cover;
 }
 
