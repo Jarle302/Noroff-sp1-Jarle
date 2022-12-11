@@ -26,6 +26,8 @@ nav {
   padding: 7px 21px;
   background-color: var(--footer-background);
   line-height: 32px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.9rem;
  
 }
 
