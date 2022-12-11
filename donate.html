@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/92a83e3665.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/donate.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="navigation__image--logo" src="/images/CSM (1).png" alt=""
+      /></a>
+
+      <input type="checkbox" id="hamburger-menu__checkbox" />
+      <label class="hamburger-menu__label" for="hamburger-menu__checkbox"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="our-exhibitions.html">Exhibitions</a></li>
+          <li><a href="get-involved.html">Get involved</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="special-events.html">Events</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="form--donate" action="post">
+        <label for="name--first">First name</label>
+        <input type="text" name="name" id="name--first" />
+        <label for="name--last">Last name</label>
+        <input type="text" name="Last name" id="name--last" />
+
+        <label for="form__email--donate">Email</label>
+        <input type="email" name="email--donate" id="form__email--donate" />
+        <label for="form__address--donate">Adress</label>
+        <input type="text" name="adress" id="form__address--donate" />
+        <label for="form__country--donate">Country</label>
+        <input type="text" name="country" id="form__country--donate" />
+
+        <label for="city--donate">City</label>
+        <input type="text" name="city" id="city--donate" />
+        <label for="province--donate">Province</label>
+        <input type="text" name="province" id="province--donate" />
+        <label for="postal-code--donate">Postal code</label>
+        <input type="number" name="postal-code" id="postal-code--donate" />
+
+        <label for="creditcard-number--donate">Card number</label>
+        <input
+          type="number"
+          name="creditcard number"
+          id="creditcard-number--donate"
+        />
+
+        <label for="cvc--donate">cvc</label>
+        <input type="number" name="cvc" id="cvc--donate" />
+
+        <label for="expires--month">month</label>
+
+        <input type="number" name="expires--month" id="expires--month" />
+        <label for="expires--year">year</label>
+        <input type="number" name="expires--year" id="expires--year" />
+        <fieldset class="form__radio--donate">
+          <input type="radio" name="donation sum" id="50-NOK" value="50-NOK" />
+          <label for="50-NOK">50 NOK</label>
+          <input
+            type="radio"
+            name="donation sum"
+            id="100-NOK"
+            value="100-NOK"
+          />
+
+          <label for="100-NOK">100 NOK</label>
+          <input
+            type="radio"
+            name="donation sum"
+            id="200-NOK"
+            value="200-NOK"
+          />
+
+          <label for="200-NOK">200 NOK</label>
+          <input
+            type="radio"
+            name="donation sum"
+            id="500-NOK"
+            value="500-NOK"
+          />
+
+          <label for="500-NOK">500 NOK</label>
+          <input
+            type="radio"
+            name="donation sum"
+            id="1000-NOK"
+            value="1000-NOK"
+          />
+
+          <label for="1000-NOK">1000 NOK</label>
+        </fieldset>
+        <input class="cta" type="submit" name="" id="" />
+      </form>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <img class="logo" src="/images/Csm (1).png" alt="" />
+        <div class="footer__container--textbox">
+          <p class="footer__p--location">Storgata 28, 4307 Sandnes</p>
+          <ul class="footer__ul--hours">
+            <li>Monday: Closed</li>
+            <li>Tuesday: 10:00 - 16:00</li>
+            <li>Wednesday: 10:00 - 16:00</li>
+            <li>Thursday: 10:00 - 16:00</li>
+            <li>Friday: 10:00 - 19:00</li>
+            <li>Saturday: 9:00 - 16:00</li>
+            <li>Sunday: 9:00 - 13:00</li>
+          </ul>
+        </div>
+        <div class="footer__container--cta">
+          <a class="cta--footer" href="">Visit</a>
+          <a class="cta--footer" href="">Donate</a>
+          <a class="cta--footer" href="">Contact</a>
+        </div>
+        <form class="footer__form" action="get">
+          <label class="footer__form--label" for="email--footer"
+            >Join our newsletter!</label
+          >
+          <input
+            type="email"
+            required="required"
+            aria-required="true"
+            id="email--footer"
+          />
+          <button>Sign up</button>
+        </form>
+        <div class="footer__container--follow-us">
+          <a class="social-media-icon" href="https://www.facebook.com/"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a class="social-media-icon" href="https://twitter.com/i/flow/login"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></a>
+          <a class="social-media-icon" href="https://www.instagram.com/"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </div>
+        <div class="footer__container--links">
+          <ul>
+            <li><a href="">Plan your visit</a></li>
+            <li><a href="our-exhibitions.html">Our exhibitions</a></li>
+            <li><a href="get-involved.html">Get involved</a></li>
+
+            <li><a href="special-events.html">Special events</a></li>
+          </ul>
+        </div>
+
+        <p class="footer__p--copyright">
+          Copyright &copy; Community science museum 2022
+        </p>
+      </div>
+    </footer>
+    <footer></footer>
+  </body>
+</html>
