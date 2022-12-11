@@ -22,11 +22,21 @@ input[type="radio"]{
 }
 
 input[type="radio"]:checked + label{
-    background-color:var(--form-green);
+    background-color:var(--secondary-color);
 
 }
 
-.form__radio--donate{
+.vipps--label{
+    margin-bottom: -3px;
+}
+
+.payment-label{
+    font-size: 2rem;
+}
+
+.form__div--radio--payment{
+color: var(--third-color);
+background-color: var(--primary-color);
 
 }
 
