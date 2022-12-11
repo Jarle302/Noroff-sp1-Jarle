@@ -14,10 +14,11 @@ body {
   margin: 0;
   grid-template-rows: auto 1fr auto;
  
-  margin: auto;
+  
 }
 main{
-  max-width: 1100px;
+  max-width: 1250px;
+  margin: auto;
 }
 
 a{cursor:pointer;}
@@ -85,11 +86,16 @@ textarea:required:invalid {
 
 /* Footer  */
 
+footer{
+  background-color: var(--footer-background);
+}
+
 .footer__container {
+  max-width: 1250px;
   display: grid;
   display: flex;
   flex-direction: column;
-  background-color: var(--footer-background);
+
   color: var(--third-color);
   gap: 30px;
 }

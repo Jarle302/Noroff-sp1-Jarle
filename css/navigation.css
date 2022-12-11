@@ -15,6 +15,7 @@ header {
 
 .header-wrapper{
   max-width: 1250px;
+  margin: auto;
 }
 nav {
   display: none;
