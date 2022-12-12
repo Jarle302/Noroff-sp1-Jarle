@@ -94,7 +94,9 @@ footer{
   background-color: var(--footer-background);
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  color: var(--third-color);
+  flex-direction: column;
 }
 
 .footer__container {
