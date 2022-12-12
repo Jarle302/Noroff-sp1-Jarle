@@ -17,7 +17,7 @@
 
 .h1--welcome {
   font-size: 2rem;
-  padding: 0 20px;
+ 
  
 }
 
@@ -182,9 +182,7 @@ h3{
     flex-direction: row;
   }
 
-  .index__section--our-exhibitions__div--container--images {
-    transform: translate(18px, 100px);
-  }
+ 
   .index__section--explore {
     margin-top: 15vh;
   }

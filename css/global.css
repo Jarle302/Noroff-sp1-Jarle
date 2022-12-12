@@ -177,7 +177,7 @@ footer ul {
 
 
   .footer__p--copyright {
-   flex: 1 1 100;
+   width: 100%;
   margin: auto;
   }
 
@@ -191,7 +191,7 @@ footer ul {
 .footer--flex-wrapper{
   display: flex;
   flex-direction: column;
-  flex: 1 1 40%;
+  flex: 1;
   align-items: center;
 }
 
