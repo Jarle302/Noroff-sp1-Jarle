@@ -43,6 +43,10 @@ color: var(--third-color);
 
 }
 
+.section--aeronautics{
+background-color: var(--primary-color);
+}
+
 
 .flex-container--visiting-proffessor-of-aeronautics{
     display: flex;
@@ -83,11 +87,13 @@ color: var(--third-color);
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        max-width: 1000px;
+        margin-top: auto;
     }
     .section--visiting-proffessor-of-aeronautics > *{
         flex: 1;
-        max-width: 1000px;
-        margin: auto;
+        
+      
     }
 
     .h2--aeronautics{
