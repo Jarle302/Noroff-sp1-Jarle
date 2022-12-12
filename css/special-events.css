@@ -88,7 +88,7 @@ background-color: var(--primary-color);
         justify-content: center;
         flex-wrap: wrap;
         max-width: 1000px;
-        margin-top: auto;
+        margin:auto
     }
     .section--visiting-proffessor-of-aeronautics > *{
         flex: 1;
