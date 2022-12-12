@@ -87,6 +87,7 @@ color: var(--third-color);
     .section--visiting-proffessor-of-aeronautics > *{
         flex: 1;
         max-width: 1000px;
+        margin: auto;
     }
 
     .h2--aeronautics{
