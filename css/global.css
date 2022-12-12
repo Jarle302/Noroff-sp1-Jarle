@@ -159,6 +159,7 @@ footer ul {
   .footer__container{
     flex-flow: row wrap;
     gap: 0;
+    justify-content: center
   }
 
   .cta--footer {
