@@ -163,7 +163,7 @@ footer ul {
   .footer__container{
     flex-flow: row wrap;
     gap: 0;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .cta--footer {
