@@ -176,7 +176,7 @@ footer ul {
 
 
   .footer__p--copyright {
-   
+   flex: 1 1 100;
   margin: auto;
   }
 
