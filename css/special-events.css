@@ -1,4 +1,4 @@
-.section--night-at-the-museum__div{
+/*.section--night-at-the-museum__div{
     background: url(/images/roberto-nickson-396152.jpg) no-repeat center;
     background-size: cover;
     color: var(--third-color);
@@ -8,19 +8,48 @@
     justify-content: space-between;
     margin: auto;
 }
+*/
+
+.card {
+    background: url(/images/roberto-nickson-396152.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--third-color);
+    border-radius: 20px;
+    
+    height: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--third-color);
+    margin: auto;
+  }
+  
+  .card__div--text-container {
+    align-self: flex-end;
+    background-color: var(--card--background-opacity);
+    border-radius:0 0 20px 20px;
+    padding: 0 20px;
+  }
+  
+  .card p {
+    font-size: 0.8rem;
+  }
+
 
 .section--visiting-proffessor-of-aeronautics{
 background-color: var(--primary-color);
 color: var(--third-color);
+
 }
+
 
 .flex-container--visiting-proffessor-of-aeronautics{
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-bottom: -20px;
-
+    gap: 30px;
 }
+
 .flex-container--visiting-proffessor-of-aeronautics > *{
     max-width: 25%;
     flex: 1;
@@ -45,4 +74,24 @@ color: var(--third-color);
 
 .special-events__p--energetica-exhibition-on-loan{
     margin-bottom: 0;
+}
+
+
+
+@media screen and (min-width:650px) {
+    .section--visiting-proffessor-of-aeronautics{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .section--visiting-proffessor-of-aeronautics > *{
+        flex: 1;
+    }
+
+    .h2--aeronautics{
+        flex: 1 1 100%;
+            
+           
+        
+        }
 }
