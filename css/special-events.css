@@ -90,8 +90,13 @@ color: var(--third-color);
 
     .h2--aeronautics{
         flex: 1 1 100%;
-            
+    }
+        .flex-container--visiting-proffessor-of-aeronautics{
+            display: flex;
+            justify-content:baseline;
+            gap: 30px;
+        }
            
         
-        }
+      
 }
