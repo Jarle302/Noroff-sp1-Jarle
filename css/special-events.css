@@ -47,6 +47,7 @@ margin:auto
 
 .section--aeronautics{
 background-color: var(--primary-color);
+width: 100%;
 }
 
 
@@ -62,8 +63,13 @@ background-color: var(--primary-color);
 }
 
 .section--energetica-exhibition-on-loan{
-    background-color: var(--fourth-color);
+    background-color: var(--third-color);
     padding-top: 30px;
+    width: 100%;
+}
+
+.--energetica-exhibition-on-loan{
+    max-width: 1300px;
 }
 
 .flex-container--visiting-proffessor-of-aeronautics--four-images{
@@ -89,7 +95,7 @@ background-color: var(--primary-color);
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-       
+       padding: 40px;
     }
     .section--visiting-proffessor-of-aeronautics > *{
         flex: 1;
@@ -97,12 +103,17 @@ background-color: var(--primary-color);
       
     }
 
+    .flex-container--visiting-proffessor-of-aeronautics > *{
+        max-width: 37%;
+        
+    }
+
     .h2--aeronautics{
         flex: 1 1 100%;
     }
         .flex-container--visiting-proffessor-of-aeronautics{
             display: flex;
-            justify-content:baseline;
+            justify-content:flex-end;
             gap: 30px;
            
         }
