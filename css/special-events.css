@@ -30,7 +30,7 @@ flex-direction: column;
 
 .image__div{
     flex: 1;
-    max-width: 20%;
+    max-width: 80%;
 }
 
 .section--visiting-proffessor-of-aeronautics{
@@ -88,7 +88,7 @@ width: 100%;
 
 
 
-@media screen and (min-width:841px) {
+@media screen and (min-width:650px) {
 
     .wrapper--night-at-the-museum{
         flex-direction: row;
@@ -96,7 +96,7 @@ width: 100%;
     }
 
     .image__div{
-        max-width: 40%;
+        max-width: 50%;
     }
 
     .image--night{
