@@ -41,7 +41,8 @@
 background-color: var(--primary-color);
 color: var(--third-color);
 max-width: 1300px;
-margin:auto
+margin:auto;
+padding: 40px;
 
 }
 
@@ -95,7 +96,7 @@ width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-       padding: 40px;
+      
     }
     .section--visiting-proffessor-of-aeronautics > *{
         flex: 1;
