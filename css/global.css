@@ -83,10 +83,7 @@ ul{
 
 /* form */
 
-input:required:invalid,
-textarea:required:invalid {
-  border: 2px solid var(--secondary-color);
-}
+
 
 /* Footer  */
 
