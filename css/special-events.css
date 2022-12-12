@@ -40,6 +40,8 @@
 .section--visiting-proffessor-of-aeronautics{
 background-color: var(--primary-color);
 color: var(--third-color);
+max-width: 1300px;
+margin:auto
 
 }
 
@@ -87,8 +89,7 @@ background-color: var(--primary-color);
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        max-width: 1000px;
-        margin:auto
+       
     }
     .section--visiting-proffessor-of-aeronautics > *{
         flex: 1;
