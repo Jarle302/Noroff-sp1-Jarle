@@ -114,7 +114,7 @@ footer{
 
 .social-media-icon {
   font-size: 2rem;
-
+padding: 0 10px;
   color: var(--third-color);
 }
 
@@ -124,13 +124,14 @@ footer{
 }
 
 .footer__p--location {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--third-color);
   line-height: normal;
 }
 
-.footer__p--location u {
+.footer__ul--hours{
   list-style: none;
+  line-height: 21px;
 }
 
 .footer__p--copyright{ 
