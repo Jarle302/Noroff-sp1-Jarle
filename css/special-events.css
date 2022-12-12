@@ -19,7 +19,7 @@ max-width: 1300px;
 display: flex;
 align-items: center;
 padding: 40px;
-justify-content: space-evenly;
+
 flex-direction: column;
 }
 
@@ -92,6 +92,16 @@ width: 100%;
 
     .wrapper--night-at-the-museum{
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .image__div{
+        max-width: 40%;
+    }
+
+    .image--night{
+        object-fit: cover;
+        height: 400px;
     }
     
     .section--visiting-proffessor-of-aeronautics{
