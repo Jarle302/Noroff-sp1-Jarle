@@ -95,6 +95,7 @@ color: var(--third-color);
             display: flex;
             justify-content:baseline;
             gap: 30px;
+            max-width: 1000px;
         }
            
         
