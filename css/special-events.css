@@ -10,32 +10,27 @@
 }
 */
 
-.card {
-    background: url(/images/roberto-nickson-396152.jpg) no-repeat center;
-    background-size: cover;
-    color: var(--third-color);
-    border-radius: 20px;
-    
-    height: 500px;
-    max-width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: var(--third-color);
-    margin: auto;
-  }
-  
-  .card__div--text-container {
-    align-self: flex-end;
-    background-color: var(--card--background-opacity);
-    border-radius:0 0 20px 20px;
-    padding: 0 20px;
-  }
-  
-  .card p {
-    font-size: 0.8rem;
-  }
+.section--night-at-the-museum{
+    width: 100%;
+}
 
+.wrapper--night-at-the-museum{
+max-width: 1300px;
+display: flex;
+align-items: center;
+padding: 40px;
+justify-content: space-evenly;
+}
+
+.div--text-container--events{
+    flex: 1;
+    max-width: 470px;
+}
+
+.image__div{
+    flex: 1;
+    max-width: 20%;
+}
 
 .section--visiting-proffessor-of-aeronautics{
 background-color: var(--primary-color);
