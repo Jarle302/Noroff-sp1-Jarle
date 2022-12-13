@@ -1,143 +1,120 @@
-/*.section--night-at-the-museum__div{
-    background: url(/images/roberto-nickson-396152.jpg) no-repeat center;
-    background-size: cover;
-    color: var(--third-color);
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: auto;
-}
-*/
-
-.section--night-at-the-museum{
-    width: 100%;
+.section--night-at-the-museum {
+  width: 100%;
 }
 
-.wrapper--night-at-the-museum{
-max-width: 1300px;
-display: flex;
-align-items: center;
-padding: 40px;
-margin: auto;
-flex-direction: column;
-}
-
-.div--text-container--events{
-    flex: 1;
-    max-width: 470px;
-}
-
-.image__div{
-    flex: 1;
-    max-width: 80%;
-}
-
-.section--visiting-proffessor-of-aeronautics{
-background-color: var(--primary-color);
-color: var(--third-color);
-max-width: 1300px;
-margin:auto;
-padding: 40px;
-
-}
-
-.section--aeronautics{
-background-color: var(--primary-color);
-width: 100%;
-}
-
-
-.flex-container--visiting-proffessor-of-aeronautics{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.flex-container--visiting-proffessor-of-aeronautics > *{
-    max-width: 30%;
-    flex: 1;
-}
-
-.section--energetica-exhibition-on-loan{
-    background-color: var(--third-color);
-  
-    
-}
-
-.wrapper--energetica-exhibition-on-loan{
-    max-width: 1300px;
+.h1--special-events{
     padding: 40px;
-    margin: auto;
 }
 
-.flex-container--visiting-proffessor-of-aeronautics--four-images{
+.wrapper--night-at-the-museum {
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.div--text-container--events {
+  flex: 1;
+  max-width: 470px;
+}
+
+.image__div {
+  flex: 1;
+  max-width: 80%;
+}
+
+.section--visiting-proffessor-of-aeronautics {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px;
+}
+
+.section--aeronautics {
+  background-color: var(--primary-color);
+  width: 100%;
+}
+
+.flex-container--visiting-proffessor-of-aeronautics {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.flex-container--visiting-proffessor-of-aeronautics > * {
+  max-width: 30%;
+  flex: 1;
+}
+
+.section--energetica-exhibition-on-loan {
+  background-color: var(--third-color);
+}
+
+.wrapper--energetica-exhibition-on-loan {
+  max-width: 1300px;
+  padding: 40px;
+  margin: auto;
+}
+
+.flex-container--visiting-proffessor-of-aeronautics--four-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flex-container--visiting-proffessor-of-aeronautics--four-images > * {
+  max-width: 19%;
+  flex: 1;
+}
+
+.special-events__p--energetica-exhibition-on-loan {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 650px) {
+  .wrapper--night-at-the-museum {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .image__div {
+    max-width: 50%;
+  }
+
+  .image--night {
+    object-fit: cover;
+    height: 350px;
+  }
+
+  .section--visiting-proffessor-of-aeronautics {
     display: flex;
     justify-content: center;
-    gap: 10px;
-}
-
-.flex-container--visiting-proffessor-of-aeronautics--four-images > *{
-    max-width: 19%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .section--visiting-proffessor-of-aeronautics > * {
     flex: 1;
-   
-}
+  }
 
-.special-events__p--energetica-exhibition-on-loan{
-    margin-bottom: 0;
-}
+  .flex-container--visiting-proffessor-of-aeronautics > * {
+    max-width: 37%;
+  }
 
+  .h2--aeronautics {
+    flex: 1 1 100%;
+  }
+  .flex-container--visiting-proffessor-of-aeronautics {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
 
-
-@media screen and (min-width:650px) {
-
-    .wrapper--night-at-the-museum{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .image__div{
-        max-width: 50%;
-    }
-
-    .image--night{
-        object-fit: cover;
-        height: 350px;
-    }
-    
-    .section--visiting-proffessor-of-aeronautics{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-      
-    }
-    .section--visiting-proffessor-of-aeronautics > *{
-        flex: 1;
-        
-      
-    }
-
-    .flex-container--visiting-proffessor-of-aeronautics > *{
-        max-width: 37%;
-        
-    }
-
-    .h2--aeronautics{
-        flex: 1 1 100%;
-    }
-        .flex-container--visiting-proffessor-of-aeronautics{
-            display: flex;
-            justify-content:flex-end;
-            gap: 30px;
-           
-        }
-           
-        
-        .flex-container--visiting-proffessor-of-aeronautics--four-images{
-            display: flex;
-            justify-content: start;
-            gap: 10px;
-        }
-      
+  .flex-container--visiting-proffessor-of-aeronautics--four-images {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+  }
 }
