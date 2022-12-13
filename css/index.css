@@ -24,6 +24,7 @@
 
 .index__section--welcome {
   display: flex;
+  
 }
 
 .index_section--welcome__div--col-1 {
@@ -170,6 +171,10 @@ h3{
     background: none;
   }
 
+  .index__section--welcome{
+    padding: 40px;
+  }
+
   .index_section--welcome__div--col-1 {
     background: none;
   }
@@ -207,5 +212,9 @@ h3{
 
   .index__div--admission {
     max-width: 441px;
+  }
+
+  .image--col-2{
+    max-width: 100%;
   }
 }
