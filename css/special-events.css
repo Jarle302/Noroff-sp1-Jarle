@@ -19,7 +19,7 @@ max-width: 1300px;
 display: flex;
 align-items: center;
 padding: 40px;
-
+margin: auto;
 flex-direction: column;
 }
 
@@ -68,6 +68,7 @@ width: 100%;
 .wrapper--energetica-exhibition-on-loan{
     max-width: 1300px;
     padding: 40px;
+    margin: auto;
 }
 
 .flex-container--visiting-proffessor-of-aeronautics--four-images{
