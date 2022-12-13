@@ -33,6 +33,7 @@
 .cta--get-involved{
   align-self: center;
   margin: 20px;
+  align-self: flex-start;
 }
 
 
@@ -93,7 +94,11 @@
 }
 
 .get-involved__h2--volunteer--internships{
-  width: 940px;
+  max-width: 940px;
+}
+
+.p--volunteer--left{
+  margin-right: 20px;
 }
 
 }
