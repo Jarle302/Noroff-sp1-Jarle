@@ -65,12 +65,17 @@
 }
 
 
+.section--volunteer{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
 
 .wrapper__div--volunteer{
  
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
  
  
 }
@@ -78,6 +83,11 @@
 .p--volunteer{
   max-width: 400px;
   flex: 1 1 50%;
+}
+
+
+.get-involved__h2--volunteer{
+  flex-basis: 100%;
 }
 
 }
