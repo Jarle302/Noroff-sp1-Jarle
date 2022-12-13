@@ -12,7 +12,9 @@
   flex-wrap: wrap;
   max-width: 1300px;
   margin: auto;
+  padding: 40px;
 }
+
 
 
 
@@ -88,6 +90,10 @@
 
 .get-involved__h2--volunteer{
   flex-basis: 100%;
+}
+
+.get-involved__h2--volunteer--internships{
+  width: 940px;
 }
 
 }
