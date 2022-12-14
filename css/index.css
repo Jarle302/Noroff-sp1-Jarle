@@ -178,8 +178,10 @@ h3{
   background-color: var(--third-color);
 }
 
-.flex-container__index__section--visit{
-  padding-left: 20px;
+
+
+.ul--visit{
+  list-style: none;
 }
 
 @media screen and (min-width: 650px) {
@@ -225,6 +227,7 @@ h3{
   }
   .flex-container__div--img-and-container {
     display: flex;
+    gap: 20px;
    
   }
 
@@ -252,12 +255,12 @@ h3{
     height: 155px
   }
 
-.ul--visit{
-  list-style: none;
-}
+
 
 .wrapper__index--visit{
   padding: 40px;
+  max-width: 1300px;
+  margin: auto;
 }
 
 }
