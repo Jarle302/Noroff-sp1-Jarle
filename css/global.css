@@ -16,9 +16,18 @@ body {
  
   
 }
+section{
+  width: 100%;
+}
 
 .section--blue{
   background-color: var(--primary-color);
+}
+
+.wrapper{
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px;
 }
 
 a{cursor:pointer;}
