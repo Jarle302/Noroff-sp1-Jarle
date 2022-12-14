@@ -138,6 +138,8 @@ h3{
   align-self: flex-end;
 }
 
+
+
 /* FOURTH SECTION */
 .index__section--get-involved {
   background-color: var(--primary-color);
@@ -209,13 +211,39 @@ h3{
   }
   .flex-container__div--img-and-container {
     display: flex;
+    gap: 20px;
   }
 
   .index__div--admission {
     max-width: 441px;
   }
 
+
+
+
   .image--col-2{
     max-width: 100%;
   }
+
+
+  .index__img--explore{
+    height: 199px;
+    object-fit: cover;
+  }
+  .index__img--explore--kids{
+    object-position: left;
+  }
+
+  .p--explore{
+    height: 155px
+  }
+
+.ul--visit{
+  list-style: none;
+}
+
+.wrapper__index--visit{
+  padding: 40px;
+}
+
 }
