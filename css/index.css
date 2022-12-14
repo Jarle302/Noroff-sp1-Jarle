@@ -31,7 +31,7 @@ section{
   display: flex;
   max-width: 1300px;
   margin: auto;
-  padding: 40px;
+  
   
 }
 
@@ -186,7 +186,9 @@ h3{
     background: none;
   }
 
- 
+ .index__section--welcome{
+  padding: 40px;
+ }
 
   .index_section--welcome__div--col-1 {
     background: none;
