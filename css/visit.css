@@ -99,19 +99,16 @@ color: var(--third-color);
 
 @media screen and (min-width:650px) {
   
+
 .wrapper{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.wrapper--blue{
-  flex-direction: row-reverse;
-}
 
-.wrapper > *{
-  flex: 1 1 40%;
-}
+
+
 
 .h2--invite{
   flex: 1 1 100%;
