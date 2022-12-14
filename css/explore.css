@@ -64,9 +64,6 @@ p{
     grid-row: 3/4;
 }
 
-.column--both,.column--left,.column--right{
-    margin: 40px 0;
-}
 
 .grid--p{
     margin: auto;

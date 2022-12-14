@@ -2,6 +2,10 @@ p{
   max-width: 400px;
 }
 
+.visit__ul--hours{
+  list-style:none;
+}
+
 section{
   width: 100%;
 }
