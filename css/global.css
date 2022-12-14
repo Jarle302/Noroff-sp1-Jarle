@@ -17,6 +17,9 @@ body {
   
 }
 
+.section--blue{
+  background-color: var(--primary-color);
+}
 
 a{cursor:pointer;}
 
