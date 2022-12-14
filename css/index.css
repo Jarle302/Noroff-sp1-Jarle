@@ -178,6 +178,10 @@ h3{
   background-color: var(--third-color);
 }
 
+.flex-container__index__section--visit{
+  padding-left: 20px;
+}
+
 @media screen and (min-width: 650px) {
   .h1--welcome,
   .p--welcome,
@@ -221,7 +225,7 @@ h3{
   }
   .flex-container__div--img-and-container {
     display: flex;
-    gap: 20px;
+   
   }
 
   .index__div--admission {
