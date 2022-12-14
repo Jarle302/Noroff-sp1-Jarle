@@ -103,6 +103,7 @@ padding: 40px;
   display: flex;
   justify-content: center;
   gap: 25px;
+  margin-top: 20px;
 }
 .index__section--our-exhibitions__div--container--images > * {
   flex: 1 1 50%;
