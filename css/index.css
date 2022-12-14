@@ -79,11 +79,7 @@ margin: auto;
 padding: 40px;
 }
 
-.h2--exhibitions {
-  background-color: var(--third-color);
-  
- 
-}
+
 
 .index__section--our-exhibitions__div--container--textboxes {
   display: flex;
