@@ -83,4 +83,8 @@ flex-basis: 100%;
     }
 
 
+    .explore__img--researchers{
+        max-width: 40%;
+    }
+
 }
