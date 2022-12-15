@@ -30,9 +30,11 @@ p{
   padding: 0 20px;
 }
 
-.card p {
-  font-size: 0.8rem;
+h2{
+  padding: 20px;
 }
+
+
 
 .card--cosmology {
   background: url(/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg) top no-repeat;
