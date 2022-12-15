@@ -51,6 +51,7 @@ p{
 .flex-container--images{
 display: flex;
 flex-basis: 100%;
+gap: 10px;
 
 }
 
