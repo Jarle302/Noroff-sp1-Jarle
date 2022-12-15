@@ -28,6 +28,13 @@ section{
   max-width: 1300px;
   margin: auto;
   padding: 40px;
+ 
+}
+
+.wrapper--flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 a{cursor:pointer;}
@@ -37,10 +44,14 @@ img {
 }
 
 /* Text */
+
+
+
 h1,
 h2,
 h3 {
   font-family: "Orbitron", sans-serif;
+  flex-basis: 100%;
  
 }
 
