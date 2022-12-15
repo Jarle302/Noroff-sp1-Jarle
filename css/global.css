@@ -53,6 +53,15 @@ h1,
 h2,
 h3 {
   font-family: "Orbitron", sans-serif;
+  
+ 
+}
+
+
+h1,
+h2 
+{
+  font-family: "Orbitron", sans-serif;
   flex-basis: 100%;
  
 }

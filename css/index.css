@@ -130,6 +130,10 @@ padding: 40px;
   flex: 1 1 100%;
 }
 
+.h3--explore{
+  flex-basis: none;
+}
+
 .index__h2--explore,
 h3{
   color: var(--black-color);
