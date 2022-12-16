@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #2d527d;
+  --primary-color: #121212;
   --secondary-color: #fcdb28;
   --third-color: #ffffff;
   --fourth-color: #d9d9d9;
@@ -8,6 +8,7 @@
   --card--background-opacity: rgb(45 82 125 / 62%);
   --color-background-text-readable: rgb(0 0 0 / 50%);
   --form-green:#094200;
+  --heading-color:#05DBF2;
 }
 
 body {
