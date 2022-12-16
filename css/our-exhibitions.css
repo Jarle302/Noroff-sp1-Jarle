@@ -1,20 +1,17 @@
-p{
+p {
   padding: 10px 0;
   line-height: 17px;
 }
 
-
-
-.main--our-exhibitions{
+.main--our-exhibitions {
   padding: 20px;
   display: grid;
   gap: 20px;
 }
 
-
 .card {
   border-radius: 20px;
-  
+
   height: 500px;
   display: flex;
   flex-wrap: wrap;
@@ -26,15 +23,13 @@ p{
 .card__div--text-container {
   align-self: flex-end;
   background-color: var(--card--background-opacity);
-  border-radius:0 0 20px 20px;
+  border-radius: 0 0 20px 20px;
   padding: 0 20px;
 }
 
-h2{
+h2 {
   padding: 20px;
 }
-
-
 
 .card--cosmology {
   background: url(/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg) top no-repeat;
@@ -52,29 +47,26 @@ h2{
 }
 
 .card--robotics-and-ai {
-  background: url(/images/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg) top no-repeat;
+  background: url(/images/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg) top
+    no-repeat;
   background-size: cover;
 }
 .card--ecology {
   background: url(/images/ivan-bandura-lzG4UQprzBY-unsplash.jpg) top no-repeat;
   background-size: cover;
 }
-.exhibitions__div--secondary-nav{
+.exhibitions__div--secondary-nav {
   display: none;
   padding-left: 20px;
 }
 
-
 @media screen and (min-width: 730px) {
-  
-  .main--our-exhibitions{
+  .main--our-exhibitions {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-
-.h1--exhibitions{
-  grid-column: 1/3;
-}
-
+  .h1--exhibitions {
+    grid-column: 1/3;
+  }
 }
