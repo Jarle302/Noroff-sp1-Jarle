@@ -2,25 +2,14 @@
   text-align: center;
 }
 
-.section--volunteer {
-  width: 100%;
+.section--volunteer,
+.wrapper__div--volunteer {
   display: flex;
   flex-direction: column;
 }
 
 .wrapper__div--volunteer {
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  max-width: 1300px;
-  margin: auto;
-  padding: 40px;
-}
-
-.section--support,
-.section--volunteer {
-  background-color: var(--primary-color);
-  color: var(--third-color);
 }
 
 .section--support {
@@ -86,7 +75,6 @@
   }
 
   .get-involved__h2--volunteer {
-    flex-basis: 100%;
     margin: 0;
   }
 
