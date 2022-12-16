@@ -1,19 +1,5 @@
-p{
+p {
   max-width: 400px;
-}
-
-.visit__ul--hours{
-  list-style:none;
-}
-
-section{
-  width: 100%;
-}
-
-.wrapper{
-  max-width: 1300px;
-  margin: auto;
-  padding: 40px;
 }
 
 .map--visit {
@@ -22,130 +8,79 @@ section{
   height: 250px;
 }
 
-.section--location{
+.section__div--visit,
+.section--location {
   display: flex;
   flex-wrap: wrap;
+}
+
+.section--location {
   justify-content: space-evenly;
   flex-direction: column;
 }
 
-.section--visit{
-    
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.h1--visit{
+.h1--visit {
   font-size: 2.5rem;
   margin: auto;
-  flex: 1 1 100%;
 }
 
-.section--visit,
-.section--admission,
-.section--food-and-drink {
-  background-color: var(--primary-color);
-  color: var(--third-color);
+.image--visit--30percent {
+  max-width: 30%;
 }
-
-.image--visit--30percent{
-    max-width: 30%;
-}
-.section--visit__image{
+.section--visit__image {
   max-width: 100%;
 }
 
-
 /* contact*/
 
-.section--contact {
-  background-color: var(--primary-color);
-  color: var(--third-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.h1--contact {
-  margin-top: 0;
-}
-
+.section--contact,
 .form--contact {
   display: flex;
   flex-direction: column;
-  
+}
+
+.section--contact {
+  align-items: center;
 }
 
 .input--contact {
-  padding: 10px 0;
   box-shadow: 3px 3px 10px black;
   width: 232px;
 }
 
-.label--contact{
+.label--contact,
+.input--contact {
   padding: 10px 0;
 }
 
-
-.cta--contact{
+.cta--contact {
   margin: 20px 0;
   align-self: flex-start;
 }
 
-.wrapper--blue{
-  background-color: var(--primary-color);
-color: var(--third-color);
-}
-
-
-
-
-@media screen and (min-width:650px) {
-  
-
-.wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-
-
-
-
-.h2--invite{
-  flex: 1 1 100%;
-}
-
-  .section--location{
+@media screen and (min-width: 650px) {
+  .section--location {
     flex-direction: row;
   }
+  .wrapper,
+  .section--location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 
-.section--location{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+  .section__div--visit {
+    flex-wrap: nowrap;
+  }
+  .section--visit__image {
+    max-width: 30%;
+  }
 
-.section--visit{
-  
-  flex-wrap:nowrap;
-  
-}
-.section--visit__image{
-  max-width: 30%;
-}
+  .h1--visit {
+    flex: 0;
+  }
 
-.h1--visit{
-  flex: 0;
-}
-
-.visit__ul--hours{
-  font-size: 2rem;
-}
-
-.visit__h2--location{
-  flex: 1 1 100%;
-}
+  .visit__ul--hours {
+    font-size: 2rem;
+  }
 }

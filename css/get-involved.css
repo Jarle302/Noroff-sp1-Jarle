@@ -1,16 +1,14 @@
-
-
-.section--hero{
+.section--hero {
   text-align: center;
 }
 
-.section--volunteer{
+.section--volunteer {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.wrapper__div--volunteer{
+.wrapper__div--volunteer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -19,28 +17,22 @@
   padding: 40px;
 }
 
-
-
-
 .section--support,
 .section--volunteer {
   background-color: var(--primary-color);
   color: var(--third-color);
 }
 
-.section--support{
+.section--support {
   display: flex;
   flex-direction: column;
-
 }
 
-.cta--get-involved{
+.cta--get-involved {
   align-self: center;
   margin: 20px;
   align-self: center;
 }
-
-
 
 .flex-container {
   display: flex;
@@ -50,74 +42,63 @@
 .flex-container > * {
   flex: 1 1 10%;
   max-width: 20%;
-  
+
   object-fit: cover;
 }
 
-.h2--support{
+.h2--support {
   margin-top: 0;
 }
 
-
-
-@media screen and (min-width:679px) {
-  
+@media screen and (min-width: 679px) {
   .flex-container > * {
-   height: 200px;
-    
-   
+    height: 200px;
   }
-  
+
   .image--hero--get-involved {
     max-width: 350px;
   }
 
-.section--hero{
-  display: flex;
-}
+  .section--hero {
+    display: flex;
+  }
 
-.h1--get-involved{
-  margin: auto;
-  font-size: 2.5rem;
-}
+  .h1--get-involved {
+    margin: auto;
+    font-size: 2.5rem;
+  }
 
+  .section--volunteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.section--volunteer{
- display: flex;
- flex-direction: column;
- justify-content: center;
-}
+  .wrapper__div--volunteer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.wrapper__div--volunteer{
- 
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
- 
- 
-}
+  .p--volunteer {
+    max-width: 400px;
+    flex: 1 1 50%;
+  }
 
-.p--volunteer{
-  max-width: 400px;
-  flex: 1 1 50%;
-}
+  .get-involved__h2--volunteer {
+    flex-basis: 100%;
+    margin: 0;
+  }
 
+  .wrapper__div--volunteer--internships {
+    max-width: 940px;
+  }
 
-.get-involved__h2--volunteer{
-  flex-basis: 100%;
-  margin: 0;
-}
+  .p--volunteer--left {
+    margin-right: 20px;
+  }
 
-.wrapper__div--volunteer--internships{
-  max-width: 940px;
-}
-
-.p--volunteer--left{
-  margin-right: 20px;
-}
-
-.h2--internships{
-  margin-top: 20px;
-}
-
+  .h2--internships {
+    margin-top: 20px;
+  }
 }
