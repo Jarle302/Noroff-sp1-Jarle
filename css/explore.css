@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   align-items: center;
   padding-bottom: 20px;
- justify-content: center;
+  justify-content: start;
 }
 
 .wrapper--sub--bottom {
@@ -14,11 +14,10 @@
 
 .wrapper--sub--reverse {
   flex-direction: row-reverse;
+  justify-content: start;
 }
 
-.wrapper--sub img {
-  max-width: 400px;
-}
+
 
 .wrapper--sub > * {
   flex: 1 1 40%;
@@ -55,10 +54,15 @@
   object-position: 50% 72%;
 }
 
-@media screen and (min-width: 650px) {
-  .wrapper--sub {
+@media screen and (min-width: 780px) {
+  .wrapper--sub,
+  .wrapper--sub--reverse {
     justify-content: space-between;
     gap: 20px;
+  }
+
+  .wrapper--sub img {
+    max-width: 400px;
   }
 
   p {
