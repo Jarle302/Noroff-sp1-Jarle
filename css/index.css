@@ -106,10 +106,6 @@
   flex: 1 1 100%;
 }
 
-
-
-
-
 .index__section--explore__div--card {
   display: flex;
   flex-direction: column;
@@ -137,12 +133,6 @@
 
 /* FIFTH SECTION */
 
-
-
-
-
-
-
 @media screen and (min-width: 650px) {
   .h1--welcome,
   .p--welcome,
@@ -157,7 +147,7 @@
 
   .index_section--welcome__div--col-1 {
     background: none;
-    padding:80px 60px 80px 0px;
+    padding: 80px 60px 80px 0px;
   }
 
   .index_section--welcome__div--col-2 {
@@ -165,10 +155,9 @@
   }
 
   .index__section--our-exhibitions__div--container--textboxes,
-  .index__section--explore  {
+  .index__section--explore {
     flex-direction: row;
   }
-
 
   .image--visit {
     max-width: 44%;

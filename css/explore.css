@@ -1,94 +1,76 @@
 /* All page  */
 
-
-.wrapper--sub{
-    display: flex;
-flex-wrap: wrap;
-align-items: center;
-padding-bottom: 20px;
-justify-content: space-between;
-gap: 20px;
+.wrapper--sub {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 20px;
+ justify-content: center;
 }
 
-
-
-.wrapper--sub--bottom{
-    padding-bottom: 0;
+.wrapper--sub--bottom {
+  padding-bottom: 0;
 }
 
-.wrapper--sub--reverse{
-    flex-direction: row-reverse;
-   
+.wrapper--sub--reverse {
+  flex-direction: row-reverse;
 }
 
-.wrapper--sub img{
-    max-width:400px;
+.wrapper--sub img {
+  max-width: 400px;
 }
 
-.wrapper--sub > *{
-    flex: 1 1 40%;
+.wrapper--sub > * {
+  flex: 1 1 40%;
 }
 
 /* KIDS */
 
-.explore__p--kids--first{
-    font-weight: 700;
-   
-    max-width: 1300px;
-   
+.explore__p--kids--first {
+  font-weight: 700;
+  max-width: 1300px;
 }
 
-
-
-
-
-
-.explore__p--kids--first{
-    flex-basis: 100%;
+.explore__p--kids--first {
+  flex-basis: 100%;
 }
-
 
 /* Teachers */
 
-.flex-container--images{
-display: flex;
-flex-basis: 100%;
-gap: 10px;
-
+.flex-container--images {
+  display: flex;
+  flex-basis: 100%;
+  gap: 10px;
 }
 
-.flex-container--images > *{
-    width: 20%;
-    height: 100px;
-    flex: 1;
-    object-fit: cover;
-    object-position: 50% 1%;
-
-    
-    
+.flex-container--images > * {
+  width: 20%;
+  height: 100px;
+  flex: 1;
+  object-fit: cover;
+  object-position: 50% 1%;
 }
 
-.teacher__div--three-pictures--middle-picture{
-    object-position: 50% 72%;
-
+.teacher__div--three-pictures--middle-picture {
+  object-position: 50% 72%;
 }
 
+@media screen and (min-width: 650px) {
+  .wrapper--sub {
+    justify-content: space-between;
+    gap: 20px;
+  }
 
-@media screen and (min-width:650px) {
-    p{
-        font-size: 1.2rem;
-        max-width: 600px;
-    }
+  p {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
 
-    .flex-container--images > *{
-         height: 200px;
-        
-        
-    }
+  .flex-container--images > * {
+    height: 200px;
+  }
 
-
-    .explore__img--researchers{
-        max-width: 40%;
-    }
-
+  .explore__img--researchers {
+    max-width: 40%;
+  }
 }
