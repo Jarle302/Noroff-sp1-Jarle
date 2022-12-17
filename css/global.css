@@ -39,6 +39,7 @@ section {
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 a:hover,
@@ -93,18 +94,25 @@ ul {
   border: 3px solid black;
   width: 92%;
   margin: 20px;
+  padding-bottom: 20px;
   color: var(--black-color);
   background-color: var(--third-color);
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .card--neu-brutalism--small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 3px solid black;
   height: 57px;
   color: var(--third-color);
   background-color: var(--primary-color);
   margin: 0;
 }
+
+
 
 .card--neu-brutalism--small h3 {
   margin: 0;
