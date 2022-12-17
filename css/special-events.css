@@ -1,10 +1,8 @@
-
-.h1--special-events{
-    padding: 40px;
+.h1--special-events {
+  padding: 40px;
 }
 
 .wrapper--night-at-the-museum {
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -19,7 +17,6 @@
   flex: 1;
   max-width: 80%;
 }
-
 
 .flex-container--visiting-proffessor-of-aeronautics {
   display: flex;
@@ -76,7 +73,6 @@
     max-width: 37%;
   }
 
-  
   .flex-container--visiting-proffessor-of-aeronautics {
     display: flex;
     justify-content: flex-end;
