@@ -103,6 +103,9 @@ ul {
   margin: 0;
 }
 
+.span--hide{
+  display: none;
+}
 
 
 /* Footer  */
