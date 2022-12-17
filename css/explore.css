@@ -1,5 +1,9 @@
 /* All page  */
 
+.cta--explore{
+    margin: 20px auto 0;
+}
+
 .wrapper--sub {
   display: flex;
   flex-wrap: wrap;
@@ -16,8 +20,6 @@
   flex-direction: row-reverse;
   justify-content: start;
 }
-
-
 
 .wrapper--sub > * {
   flex: 1 1 40%;
