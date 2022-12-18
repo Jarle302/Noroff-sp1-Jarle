@@ -2,13 +2,13 @@
   text-align: center;
 }
 
-.section--volunteer,
-.wrapper__div--volunteer {
+.section--flex,
+.wrapper__div--flex {
   display: flex;
   flex-direction: column;
 }
 
-.wrapper__div--volunteer {
+.wrapper__div--flex {
   flex-wrap: wrap;
 }
 
@@ -57,24 +57,24 @@
     font-size: 2.5rem;
   }
 
-  .section--volunteer {
+  .section--flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .wrapper__div--volunteer {
+  .wrapper__div--flex {
     flex-direction: row;
 
     justify-content: space-between;
   }
 
-  .p--volunteer {
+  .p--max {
     max-width: 400px;
     flex: 1 1 50%;
   }
 
-  .get-involved__h2--volunteer {
+  .get-involved__h2--margin {
     margin: 0;
   }
 
@@ -82,12 +82,12 @@
     max-width: 940px;
   }
 
-  .p--volunteer--left {
+  .p--max-right {
     margin-right: 20px;
   }
 
   .h2--internships,
-  .get-involved__h2--volunteer {
+  .get-involved__h2--margin {
     margin-top: 20px;
   }
 }
