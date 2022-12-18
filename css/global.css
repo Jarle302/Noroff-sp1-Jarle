@@ -47,6 +47,7 @@ button:hover,
 input:hover,
 textarea:hover {
   box-shadow: 0px 0px 10px #05dbec;
+  text-decoration: underline;
 }
 
 img {
