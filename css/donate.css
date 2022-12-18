@@ -4,6 +4,7 @@ h2{
 
 .donate__image{
 width: 50%;
+max-width: 400px;
 }
 
 .form--donate {
