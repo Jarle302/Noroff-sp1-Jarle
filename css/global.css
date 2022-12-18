@@ -58,7 +58,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+legend {
   font-family: "Orbitron", sans-serif;
 }
 
@@ -112,8 +113,6 @@ ul {
   background-color: var(--primary-color);
   margin: 0;
 }
-
-
 
 .card--neu-brutalism--small h3 {
   margin: 0;
