@@ -8,10 +8,12 @@ h2{
   width: 250px;
 }
 
-.form__radio--donate-amount label {
+.form__radio--donate-amount label,.payment-label {
   border: 1px solid var(--black-color);
-  margin: 10px;
+  margin: 10px 0;
   width: 94px;
+  max-width: 92px;
+  text-align: center;
 }
 
 input[type="radio"] {
@@ -22,12 +24,11 @@ input[type="radio"]:checked + label {
   background-color: var(--secondary-color);
 }
 
-.payment-label{
-    max-width: max-content;
-}
+
 
 fieldset {
   border: none;
   display: flex;
   flex-direction: column;
+  padding: 10px 0;
 }
