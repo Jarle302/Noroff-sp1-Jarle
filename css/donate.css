@@ -2,6 +2,10 @@ h2{
     max-width: 650px;
 }
 
+.donate__image{
+width: 50%;
+}
+
 .form--donate {
   display: flex;
   flex-direction: column;

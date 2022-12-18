@@ -123,12 +123,31 @@
   gap: 10px;
 }
 
-.index__section--get-involved__div--container--links a {
-  text-decoration: none;
-}
+
 
 .cta__index--learn-more {
   margin: 40px 20px 20px 20px;
+}
+
+.index__section--get-involved{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.index__div--get-involved{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+.index__get-involded__div__image {
+  width: 30%;
+  min-width: 200px;
+}
+
+.cta__index--learn-more{
+  margin: 40px;
 }
 
 /* FIFTH SECTION */
@@ -192,5 +211,11 @@
 
   .p--explore {
     height: 155px;
+  }
+
+  .index__div--get-involved {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
