@@ -1,10 +1,10 @@
-h2{
-    max-width: 400px;
+h2 {
+  max-width: 400px;
 }
 
-.donate__image{
-width: 50%;
-max-width: 400px;
+.donate__image {
+  width: 50%;
+  max-width: 400px;
 }
 
 .form--donate {
@@ -13,7 +13,8 @@ max-width: 400px;
   width: 250px;
 }
 
-.form__radio--donate-amount label,.payment-label {
+.form__radio--donate-amount label,
+.payment-label {
   border: 1px solid var(--black-color);
   margin: 10px 0;
   width: 94px;
@@ -29,9 +30,8 @@ input[type="radio"]:checked + label {
   background-color: var(--secondary-color);
 }
 
-
-
-form div {
+form div,
+fieldset {
   border: none;
   display: flex;
   flex-direction: column;
