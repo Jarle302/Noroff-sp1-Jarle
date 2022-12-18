@@ -1,45 +1,42 @@
-.form--donate{
-    display: flex;
-    flex-direction: column;
-    width: 250px;
+.form--donate {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
 }
 
-fieldset{
-    border: none;
-    padding: 20px;
-   display: flex;
-   flex-direction: column;
+fieldset {
+  border: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-fieldset label{
-    border: 1px solid var(--black-color);
-    margin: 10px;
-    width: 73px;
+fieldset label {
+  border: 1px solid var(--black-color);
+  margin: 10px;
+  width: 73px;
 }
 
-input[type="radio"]{
-    display: none;
+input[type="radio"] {
+  display: none;
 }
 
-input[type="radio"]:checked + label{
-    background-color:var(--secondary-color);
-
+input[type="radio"]:checked + label {
+  background-color: var(--secondary-color);
 }
 
-.vipps--label{
-    margin-bottom: -3px;
+.vipps--label {
+  margin-bottom: -3px;
 }
 
-.payment-label{
-    font-size: 2rem;
+.payment-label {
+  font-size: 2rem;
 }
 
-.form__div--radio--payment{
-color: var(--third-color);
-background-color: var(--primary-color);
-
+.form__div--radio--payment {
+  color: var(--third-color);
+  background-color: var(--primary-color);
 }
 
-input{
-    
+input {
 }

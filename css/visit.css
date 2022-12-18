@@ -8,8 +8,6 @@ p {
   height: 250px;
 }
 
-
-
 .section__div--visit,
 .section--location {
   display: flex;
@@ -23,7 +21,7 @@ p {
 
 .h1--visit {
   font-size: 1.5rem;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .image--visit--30percent {
@@ -80,7 +78,7 @@ p {
 
   .h1--visit {
     font-size: 2.5rem;
-    margin:auto;
+    margin: auto;
   }
 
   .visit__ul--hours {
