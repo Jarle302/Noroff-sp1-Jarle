@@ -47,13 +47,16 @@
       <section>
         <div class="wrapper">
           <h1>Donate</h1>
-          <img class="donate__image" src="/images/donate.jpg" alt="Cute drawing of person donating hearts into a glass jar">
+          <img
+            class="donate__image"
+            src="/images/donate.jpg"
+            alt="Cute drawing of person donating hearts into a glass jar" />
           <h2>
             Thanks for helping us keep exploring together with you and future
             science enthusiast
           </h2>
           <form class="form--donate" action="post">
-            <fieldset>
+            <div>
               <label for="name--first">First name</label>
               <input type="text" name="name" id="name--first" />
               <label for="name--last">Last name</label>
@@ -76,11 +79,10 @@
                 type="number"
                 name="postal-code"
                 id="postal-code--donate" />
-            </fieldset>
+            </div>
 
-            
-            <fieldset>
-              <fieldset class="payment-options--icons">
+            <div>
+              <div class="payment-options--icons">
                 <h3>Payment options</h3>
                 <input
                   class="form__input__radio--payment"
@@ -128,7 +130,7 @@
                 <label class="payment-label" for="paypal"
                   >Paypal<i class="fa-brands fa-paypal"></i
                 ></label>
-              </fieldset>
+              </div>
               <label for="creditcard-number--donate">Card number</label>
               <input
                 type="number"
@@ -140,9 +142,8 @@
               <input type="number" name="expires--month" id="expires--month" />
               <label for="expires--year">year</label>
               <input type="number" name="expires--year" id="expires--year" />
-             
-            </fieldset>
-            <fieldset class="form__radio--donate-amount">
+            </div>
+            <div class="form__radio--donate-amount">
               <h3>Donation amount</h3>
               <input
                 type="radio"
@@ -174,11 +175,10 @@
                 id="1000-NOK"
                 value="1000-NOK" />
               <label for="1000-NOK">1000 NOK</label>
-            </fieldset>
+            </div>
             <input class="cta" type="submit" name="" id="" />
           </form>
         </div>
-        
       </section>
     </main>
     <footer>
