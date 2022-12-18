@@ -2,13 +2,11 @@
   --primary-color: #121212;
   --secondary-color: #fcdb28;
   --third-color: #ffffff;
-  --fourth-color: #d9d9d9;
   --black-color: #000000;
   --footer-background: #121212;
   --card--background-opacity: rgb(45 82 125 / 62%);
   --color-background-text-readable: rgb(0 0 0 / 50%);
-  --form-green: #094200;
-  --heading-color: #05dbf2;
+  --fourth-color: #05dbf2;
 }
 
 body {
@@ -46,7 +44,7 @@ a:hover,
 button:hover,
 input:hover,
 textarea:hover {
-  box-shadow: 0px 0px 10px #05dbec;
+  box-shadow: 0px 0px 10px var(--fourth-color);
   text-decoration: underline;
 }
 
