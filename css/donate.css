@@ -1,20 +1,17 @@
+h2{
+    max-width: 650px;
+}
+
 .form--donate {
   display: flex;
   flex-direction: column;
   width: 250px;
 }
 
-fieldset {
-  border: none;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-fieldset label {
+.form__radio--donate-amount label {
   border: 1px solid var(--black-color);
   margin: 10px;
-  width: 73px;
+  width: 94px;
 }
 
 input[type="radio"] {
@@ -25,18 +22,12 @@ input[type="radio"]:checked + label {
   background-color: var(--secondary-color);
 }
 
-.vipps--label {
-  margin-bottom: -3px;
+.payment-label{
+    max-width: max-content;
 }
 
-.payment-label {
-  font-size: 2rem;
-}
-
-.form__div--radio--payment {
-  color: var(--third-color);
-  background-color: var(--primary-color);
-}
-
-input {
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
 }

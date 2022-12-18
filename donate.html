@@ -45,84 +45,101 @@
     </header>
     <main>
       <section>
-        <h1>Donate</h1>
-        <h2>
-          Thanks for helping us keep exploring together with you and future
-          science enthusiast
-        </h2>
-        <form class="form--donate" action="post">
-          <label for="name--first">First name</label>
-          <input type="text" name="name" id="name--first" />
-          <label for="name--last">Last name</label>
-          <input type="text" name="Last name" id="name--last" />
-          <label for="form__email--donate">Email</label>
-          <input type="email" name="email--donate" id="form__email--donate" />
-          <label for="form__address--donate">Adress</label>
-          <input type="text" name="adress" id="form__address--donate" />
-          <label for="form__country--donate">Country</label>
-          <input type="text" name="country" id="form__country--donate" />
-          <label for="city--donate">City</label>
-          <input type="text" name="city" id="city--donate" />
-          <label for="province--donate">Province</label>
-          <input type="text" name="province" id="province--donate" />
-          <label for="postal-code--donate">Postal code</label>
-          <input type="number" name="postal-code" id="postal-code--donate" />
-          <div class="form__div--radio--payment">
-            <h2>Payment options</h2>
-            <input
-              class="form__input__radio--payment"
-              class="checkout__form__input--radio"
-              type="radio"
-              name="payment"
-              id="visa"
-              value="visa" />
-            <label
-              id="visa-label"
-              class="payment-label checkout__form__label--visa"
-              for="visa"
-              ><i class="fa-brands fa-cc-visa"></i
-            ></label>
-            <input
-              class="form__input__radio--payment"
-              type="radio"
-              name="payment"
-              id="mastercard"
-              value="mastercard" />
-            <label class="payment-label" for="mastercard"
-              ><i class="fa-brands fa-cc-mastercard"></i
-            ></label>
-            <input
-              class="form__input__radio--payment"
-              type="radio"
-              name="payment"
-              id="vipps"
-              value="vipps" />
-            <label class="payment-label vipps--label" for="vipps"
-              ><iconify-icon
-                class="vipps--label"
-                icon="arcticons:vipps"></iconify-icon
-            ></label>
-            <input
-              class="form__input__radio--payment"
-              type="radio"
-              name="payment"
-              id="paypal"
-              value="paypal" />
-            <label class="payment-label" for="paypal"
-              ><i class="fa-brands fa-paypal"></i
-            ></label>
-            <label for="creditcard-number--donate">Card number</label>
-            <input
-              type="number"
-              name="creditcard number"
-              id="creditcard-number--donate" />
-            <label for="cvc--donate">cvc</label>
-            <input type="number" name="cvc" id="cvc--donate" />
-            <label for="expires--month">month</label>
-            <input type="number" name="expires--month" id="expires--month" />
-            <label for="expires--year">year</label>
-            <input type="number" name="expires--year" id="expires--year" />
-            <fieldset class="form__radio--donate">
+        <div class="wrapper">
+          <h1>Donate</h1>
+          <h2>
+            Thanks for helping us keep exploring together with you and future
+            science enthusiast
+          </h2>
+          <form class="form--donate" action="post">
+            <fieldset>
+              <label for="name--first">First name</label>
+              <input type="text" name="name" id="name--first" />
+              <label for="name--last">Last name</label>
+              <input type="text" name="Last name" id="name--last" />
+              <label for="form__email--donate">Email</label>
+              <input
+                type="email"
+                name="email--donate"
+                id="form__email--donate" />
+              <label for="form__address--donate">Adress</label>
+              <input type="text" name="adress" id="form__address--donate" />
+              <label for="form__country--donate">Country</label>
+              <input type="text" name="country" id="form__country--donate" />
+              <label for="city--donate">City</label>
+              <input type="text" name="city" id="city--donate" />
+              <label for="province--donate">Province</label>
+              <input type="text" name="province" id="province--donate" />
+              <label for="postal-code--donate">Postal code</label>
+              <input
+                type="number"
+                name="postal-code"
+                id="postal-code--donate" />
+            </fieldset>
+
+            <fieldset class="payment-options--icons">
+              <h2>Payment options</h2>
+              <input
+                class="form__input__radio--payment"
+                class="checkout__form__input--radio"
+                type="radio"
+                name="payment"
+                id="visa"
+                value="visa" />
+              <label
+                aria-label="Visa icon"
+                id="visa-label"
+                class="payment-label checkout__form__label--visa"
+                for="visa"
+                >Visa<i class="fa-brands fa-cc-visa"></i
+              ></label>
+              <input
+                class="form__input__radio--payment"
+                type="radio"
+                name="payment"
+                id="mastercard"
+                value="mastercard" />
+              <label
+                aria-label="mastercard icon"
+                class="payment-label"
+                for="mastercard"
+                >Mastercard<i class="fa-brands fa-cc-mastercard"></i
+              ></label>
+              <input
+                class="form__input__radio--payment"
+                type="radio"
+                name="payment"
+                id="vipps"
+                value="vipps" />
+              <label class="payment-label vipps--label" for="vipps"
+                >Vipps<iconify-icon
+                  class="vipps--label"
+                  icon="arcticons:vipps"></iconify-icon
+              ></label>
+              <input
+                class="form__input__radio--payment"
+                type="radio"
+                name="payment"
+                id="paypal"
+                value="paypal" />
+              <label class="payment-label" for="paypal"
+                >Paypal<i class="fa-brands fa-paypal"></i
+              ></label>
+            </fieldset>
+            <fieldset>
+              <label for="creditcard-number--donate">Card number</label>
+              <input
+                type="number"
+                name="creditcard number"
+                id="creditcard-number--donate" />
+              <label for="cvc--donate">cvc</label>
+              <input type="number" name="cvc" id="cvc--donate" />
+              <label for="expires--month">month</label>
+              <input type="number" name="expires--month" id="expires--month" />
+              <label for="expires--year">year</label>
+              <input type="number" name="expires--year" id="expires--year" />
+            </fieldset>
+            <fieldset class="form__radio--donate-amount">
               <h3>Donation amount</h3>
               <input
                 type="radio"
@@ -156,8 +173,8 @@
               <label for="1000-NOK">1000 NOK</label>
             </fieldset>
             <input class="cta" type="submit" name="" id="" />
-          </div>
-        </form>
+          </form>
+        </div>
       </section>
     </main>
     <footer>
