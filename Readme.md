@@ -39,8 +39,10 @@ There are no dependencies!
 
 ### Running
 
+Link to live site:
+
 ```
-Link to live site: https://sweet-gumption-216664.netlify.app/index.html
+ https://sweet-gumption-216664.netlify.app/index.html
 ```
 
 ## Contributing
