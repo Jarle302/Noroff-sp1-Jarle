@@ -49,6 +49,6 @@ If you want to help make the site even better, open a pull request and i will re
 
 ## Contact
 
-[My email](jarlehtollaksen2@live.no)
+[My email](mailto:jarlehtollaksen2@live.no)
 
 [My facebook page](https://www.facebook.com/jarle.tollaksen.3/)
